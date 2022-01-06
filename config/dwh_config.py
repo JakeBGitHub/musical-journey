@@ -17,3 +17,8 @@ B_QUERY2 = os.getenv("B_QUERY2")
 
 C_QUERY1 = os.getenv("C_QUERY1")
 C_QUERY2 = os.getenv("C_QUERY2")
+
+D_QUERY1 = os.getenv("D_QUERY1")
+D_QUERY2 = os.getenv("D_QUERY2")
+
+E_QUERY1 = os.getenv("E_QUERY1")
