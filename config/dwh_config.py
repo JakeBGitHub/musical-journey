@@ -23,3 +23,4 @@ D_QUERY2 = os.getenv("D_QUERY2")
 
 E_QUERY1 = os.getenv("E_QUERY1")
 E_QUERY2 = os.getenv("E_QUERY2")
+E_QUERY3 = os.getenv("E_QUERY3")

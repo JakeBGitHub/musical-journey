@@ -17,6 +17,9 @@ def main():
     ## Query 2
     conn.execute(E_QUERY2)
     print("Success! Query 2 complete.")
+    ## Query 3
+    conn.execute(E_QUERY3)
+    print("Success! Query 3 complete.")
 
     print("--- Script Execution Time: %s seconds ---" % (time.time() - start_time))
     print("--- End Time: {} ---".format(datetime.datetime.now().strftime("%H:%M:%S")))
