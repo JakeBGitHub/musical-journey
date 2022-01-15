@@ -12,11 +12,11 @@ def main():
     conn = connect_to_database()
 
     ## Query 1
-    conn.execute(B_QUERY1)
-    print("Success! Query 1 complete.")
+    conn.execute(B1_QUERY1)
+    print("Success! B1_QUERY1 complete.")
     ## Query 2
-    conn.execute(B_QUERY2)
-    print("Success! Query 2 complete.")
+    conn.execute(B2_QUERY1)
+    print("Success! B2_QUERY1 complete.")
 
     print("--- Script Execution Time: %s seconds ---" % (time.time() - start_time))
     print("--- End Time: {} ---".format(datetime.datetime.now().strftime("%H:%M:%S")))

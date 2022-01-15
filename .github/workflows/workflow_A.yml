@@ -43,8 +43,10 @@ jobs:
         echo DATABASE = '${{ secrets.DATABASE }}' >> .env
         echo UID = '${{ secrets.UID }}' >> .env
         echo PASSWORD = '${{ secrets.PASSWORD }}' >> .env
-        echo A_QUERY1 = '${{ secrets.A_QUERY1 }}' >> .env
-        echo A_QUERY2 = '${{ secrets.A_QUERY2 }}' >> .env
+        echo A1_QUERY1 = '${{ secrets.A1_QUERY1 }}' >> .env
+        echo A1_QUERY2 = '${{ secrets.A1_QUERY2 }}' >> .env
+        echo A2_QUERY1 = '${{ secrets.A2_QUERY1 }}' >> .env
+        echo A2_QUERY2 = '${{ secrets.A2_QUERY2 }}' >> .env
 
     - name: Run workflow A
       run: |        
