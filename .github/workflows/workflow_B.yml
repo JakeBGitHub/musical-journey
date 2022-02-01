@@ -45,6 +45,7 @@ jobs:
         echo PASSWORD = '${{ secrets.PASSWORD }}' >> .env
         echo B1_QUERY1 = '${{ secrets.B1_QUERY1 }}' >> .env
         echo B2_QUERY1 = '${{ secrets.B2_QUERY1 }}' >> .env
+        echo B2_QUERY2 = '${{ secrets.B2_QUERY2 }}' >> .env
 
     - name: Run workflow B
       run: |        

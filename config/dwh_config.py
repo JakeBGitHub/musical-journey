@@ -18,6 +18,7 @@ A3_QUERY2 = os.getenv("A2_QUERY2")
 
 B1_QUERY1 = os.getenv("B1_QUERY1")
 B2_QUERY1 = os.getenv("B2_QUERY1")
+B2_QUERY2 = os.getenv("B2_QUERY2")
 
 C1_QUERY1 = os.getenv("C1_QUERY1")
 
